@@ -8,7 +8,7 @@ import plotly.express as px
 df = pd.read_csv('df2.csv')
 
 # Title and description
-st.title('Population and Demographic Data Visualization')
+st.title('Population and Demographic Data Visualization THIS (DATA IS FROM 2017)')
 st.write("""
     This app allows you to explore and visualize demographic data, including population statistics, sex ratio, population growth, 
     and more across various regions (PROVINCE, DIVISION, DISTRICT, TEHSIL). Use the filters and visualization options below to explore the data interactively.
