@@ -85,11 +85,11 @@ if selected_columns:
         st.write(summed_data_df)
         
         # If two or more columns are selected, also show the sum of the selected columns together
-        if len(selected_columns) > 1:
-            combined_sum = province_data[selected_columns].sum().sum()
-            st.write(f"Combined Sum of Selected Columns for {province_name}: {combined_sum}")
-else:
-    st.write("Select columns to see the total sum.")
+        #if len(selected_columns) > 1:
+           #combined_sum = province_data[selected_columns].sum().sum()
+            #st.write(f"Combined Sum of Selected Columns for {province_name}: {combined_sum}")
+#else:
+    #st.write("Select columns to see the total sum.")
 
 # Visualization options
 st.header('Visualization')
